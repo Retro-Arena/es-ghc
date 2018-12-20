@@ -1,0 +1,348 @@
+<!--
+theme name:		ghc
+version:		1.0
+author:		 Will Allen (aka) WAWEEDMAN
+
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>38</zIndex>
+			<path>./assets/bg.png</path>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+			<pos>1 1</pos>
+		</helpsystem>	
+		
+		<image name="logo">
+			<path>./art2/${system.theme}.png</path>
+		</image>
+		
+	    <text name="systemInfo">
+         <pos>0.002 0.897</pos>
+         <backgroundColor>000000</backgroundColor>
+         <color>ffffff</color>
+         <fontPath>./_inc/fonts/Spider-Man.otf</fontPath>
+	     <fontSize>0.02</fontSize>
+      </text>
+
+		
+	</view>
+
+	<view name="basic, detailed, video">
+		
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./assets/Spider-Man.otf</fontPath>
+			<fontSize>0.028</fontSize>
+		</text>
+
+		<text name="md_developer, md_genre, md_players, md_playcount, md_releasedate">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./assets/Spider-Man.otf</fontPath>
+			<fontSize>0.028</fontSize>
+		</text>
+
+		<helpsystem name="help">
+			<textColor>ffffffff</textColor>
+			<iconColor>ffffffff</iconColor>
+			<pos>1 1</pos>
+		</helpsystem>
+		
+		<image name="logo">
+			<color>00000000</color>
+			<path>./assets/box.png</path>
+			<pos>1 1</pos>
+		</image>
+<image name="logo">
+			<path>./art/${system.theme}.png</path>
+		</image>
+
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./assets/systembg.jpg</path>
+		</image>
+		
+
+		
+	</view>
+
+	<view name="basic">
+
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./assets/basicbg.png</path>
+		</image>
+				<textlist name="gamelist">
+			<zIndex>40</zIndex>
+                        <fontSize>0.028</fontSize>
+			<pos>0.399 0.060</pos>
+			<size>0.200 0.790</size>
+			<alignment>left</alignment>
+			<lineSpacing>2.3</lineSpacing>
+			<scrollSound>./assets/Move.wav</scrollSound>			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<selectorColor>00000090</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>FFFFFF75</secondaryColor>
+		</textlist>
+	</view>
+	
+
+	<view name="detailed">
+		
+	  <image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.021 0.016</pos>
+			<maxSize>0.298 0.108</maxSize>
+                        <zIndex>40</zIndex>
+	  </image>
+          <image name="md_image">
+		        <pos>0.440 0.670</pos>
+                        <zIndex>39</zIndex>
+			<maxSize>0.277 0.365</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>0.310 0.045</pos>
+         <maxSize>0.260 0.150</maxSize>
+         <path>./art/${system.theme}.png</path>
+		 <zIndex>40</zIndex>
+      </image>
+
+	
+	</view>
+	
+	<view name="detailed, video">	
+		<image name="image" extra="true">
+			 <path>./art/${system.theme}.png</path>
+                        <origin>0.5 0.5</origin>
+                        <pos>0.441 0.117</pos>
+                        <zIndex>40</zIndex>
+                        <maxSize>0.260 0.150</maxSize>
+                </image>
+		<image name="header" extra="true">
+			<path>./assets/venom.png</path>
+                        <tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>40</zIndex>
+                                       </image>
+	  <image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.310 0.257</pos>
+			<maxSize>0.261 0.177</maxSize>
+                        <zIndex>40</zIndex>
+	  </image>
+		
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>38</zIndex>
+			<path>./assets/systembg.png</path>
+		</image>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_developer">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.144 0.02</size>
+			<color>000000</color>
+			<zIndex>42</zIndex>
+		</text>
+		<text name="md_lbl_rating">
+			<pos>0.025 0.930</pos>
+		</text>
+		<text name="md_players, md_genre">
+			<size>0.14 0.02</size>
+		</text>
+		<text name="md_lbl_players">
+			<pos>0.195 0.930</pos>
+		</text>		
+		<text name="md_players">
+			<pos>0.255 0.930</pos>
+		</text>
+		<text name="md_lbl_releasedate">
+			<color>000000</color>
+                        <pos>0.290 0.930</pos>
+		</text>		
+		<datetime name="md_releasedate">
+	          <color>000000</color>
+                  <pos>0.360 0.930</pos>			
+		</datetime>			
+		<text name="md_lbl_genre">
+			<pos>0.440 0.930</pos>
+		</text>		
+		<text name="md_genre">
+			<pos>0.490 0.930</pos>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+		    <color>000000</color>
+			<pos>0.269 0.145</pos>
+                        <zIndex>30</zIndex>
+		</text>
+		
+		<datetime name="md_lastplayed">
+		    <color>000000</color>
+			<pos>0.390 0.138</pos>
+                        <zIndex>30</zIndex>
+		</datetime>	
+
+		<text name="md_lbl_playcount">
+		    <color>000000</color>
+			<pos>0.645 0.930</pos>
+		</text>
+		
+		<text name="md_playcount">
+		    <color>000000</color>
+			<pos>0.745 0.930</pos>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>0.765 0.930</pos>
+		                        </text>
+		
+		<text name="md_developer">
+			<pos>0.850 0.930</pos>
+		        <fontSize>0.03</fontSize>
+                </text>
+		<text name="md_genre, md_playcount, md_releasedate, md_developer, md_lastplayed, md_players">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.144 0.02</size>
+			<color>000000</color>
+			<zIndex>42</zIndex>
+		</text>
+		<text name="md_description">
+			<lineSpacing>1</lineSpacing>
+			<pos>0.610 0.630</pos>
+			<size>0.360 0.230</size>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontSize>0.024</fontSize>
+			<color>000000</color>
+			<zIndex>42</zIndex>
+		</text>
+		<datetime name="md_releasedate">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0 0.02</size>
+			<color>000000</color>
+			<zIndex>42</zIndex>
+		</datetime>
+		<rating name="md_rating">
+			<pos>0.080 0.920</pos>
+			<zIndex>42</zIndex>
+			<filledPath>./_inc/fonts/rating_filled.svg</filledPath>
+			<unfilledPath>./_inc/fonts/rating_empty.svg</unfilledPath>
+			<size>0.032 0.04</size>
+		</rating>
+		<textlist name="gamelist">
+			<zIndex>40</zIndex>
+                        <fontSize>0.028</fontSize>
+			<pos>0.021 0.060</pos>
+			<size>0.200 0.790</size>
+			<alignment>left</alignment>
+			<lineSpacing>2.3</lineSpacing>
+			<scrollSound>./assets/Move.wav</scrollSound>			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<selectorColor>00000090</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>FFFFFF75</secondaryColor>
+		</textlist>
+</view>
+	
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.025 0.350</pos>
+        <size>0.95 0.4</size>
+        <zIndex>39</zIndex>
+        <logoScale>1.8</logoScale>
+        <logoSize>0.1 0.16</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>7</maxLogoCount>
+      </carousel>
+
+
+    <text name="systemInfo">
+      <backgroundColor>00000000</backgroundColor>
+	  <color>000000</color>
+	  <pos>0.310 0.240</pos>
+	  <size>0.388 0.182</size>
+      <fontPath>./assets/Spider-Man.otf</fontPath>
+	  <alignment>center</alignment>
+	  <lineSpacing>2.3</lineSpacing>
+      <fontSize>0.050</fontSize>
+    </text>
+
+  </view>
+
+ </feature>
+  
+ <view name="video">
+
+	  <image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.310 0.257</pos>
+			<maxSize>0.261 0.177</maxSize>
+                        <zIndex>40</zIndex>
+	  </image>
+	  	
+	  
+	  <video name="md_video">
+		        <pos>0.599 0.033</pos>
+                        <zIndex>39</zIndex>
+			<size>0.387 0.554</size>
+			<origin>0 0</origin>
+			<delay>0.0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+		</video>
+          <image name="md_image">
+		        <pos>0.440 0.670</pos>
+                        <zIndex>39</zIndex>
+			<maxSize>0.277 0.365</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view> 
+	
+	
+</theme>
