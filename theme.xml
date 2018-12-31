@@ -33,7 +33,7 @@ author:		 Will Allen (aka) WAWEEDMAN
          <pos>0.002 0.897</pos>
          <backgroundColor>000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/Spider-Man.otf</fontPath>
+         <fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
 	     <fontSize>0.02</fontSize>
       </text>
 
@@ -294,10 +294,10 @@ author:		 Will Allen (aka) WAWEEDMAN
         <pos>0.025 0.350</pos>
         <size>0.95 0.4</size>
         <zIndex>39</zIndex>
-        <logoScale>1.8</logoScale>
-        <logoSize>0.1 0.16</logoSize>
+        <logoScale>1.35</logoScale>
+        <logoSize>0.165 0.22</logoSize>
         <color>00000000</color>
-        <maxLogoCount>7</maxLogoCount>
+        <maxLogoCount>5</maxLogoCount>
       </carousel>
 
 
@@ -306,7 +306,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 	  <color>000000</color>
 	  <pos>0.310 0.240</pos>
 	  <size>0.388 0.182</size>
-      <fontPath>./assets/Spider-Man.otf</fontPath>
+      <fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
 	  <alignment>center</alignment>
 	  <lineSpacing>2.3</lineSpacing>
       <fontSize>0.050</fontSize>
