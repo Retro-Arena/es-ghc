@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "path": "/home/pigaming/RetroArena/roms/atari2600/Adventure (USA).zip",
+      "label": "",
+      "core_path": "/opt/retroarena/libretrocores/lr-stella/stella_libretro.so",
+      "core_name": "Stella",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pigaming/RetroArena/roms/atari2600/32 in 1 Game Cartridge (Europe).zip",
+      "label": "",
+      "core_path": "/opt/retroarena/libretrocores/lr-stella/stella_libretro.so",
+      "core_name": "Stella",
+      "crc32": "",
+      "db_name": ""
+    },
+    {
+      "path": "/home/pigaming/RetroArena/roms/atari2600/3-D Tic-Tac-Toe (USA).zip",
+      "label": "",
+      "core_path": "/opt/retroarena/libretrocores/lr-stella/stella_libretro.so",
+      "core_name": "Stella",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}

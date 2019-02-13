@@ -1,0 +1,54 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+
+</view>
+
+       <view name="detailed">
+          <image name="md_image">
+		        <pos>0.440 0.670</pos>
+                        <zIndex>39</zIndex>
+			<maxSize>0.277 0.365</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		<image name="header" extra="true">
+			<path>./assets/venom.png</path>
+                        <tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>43</zIndex>
+						</image>
+             	</view>
+  
+	 <view name="video">
+
+	  <image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.310 0.257</pos>
+			<maxSize>0.261 0.177</maxSize>
+                        <zIndex>40</zIndex>
+	  </image>
+	  	
+	  
+	  <video name="md_video">
+		        <pos>0.599 0.033</pos>
+                        <zIndex>39</zIndex>
+			<size>0.387 0.554</size>
+			<origin>0 0</origin>
+			<delay>0.0</delay>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+		</video>
+          <image name="md_image">
+		        <pos>0.440 0.670</pos>
+                        <zIndex>39</zIndex>
+			<maxSize>0.277 0.365</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>  
+
+</theme>

@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "path": "/home/pigaming/RetroArena/roms/sgb/Metroid II - Return of Samus (World).zip",
+      "label": "",
+      "core_path": "/opt/retroarena/libretrocores/lr-gambatte/gambatte_libretro.so",
+      "core_name": "Gambatte",
+      "crc32": "",
+      "db_name": ""
+    }
+  ]
+}
