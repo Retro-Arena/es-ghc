@@ -170,7 +170,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<path>./assets/systembg.png</path>
 		</image>
 
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players,  md_lbl_playcount, md_lbl_developer">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_developer">
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
 			<fontSize>0.03</fontSize>
@@ -203,7 +203,19 @@ author:		 Will Allen (aka) WAWEEDMAN
 		</text>		
 		<text name="md_genre">
 			<pos>0.490 0.930</pos>
-		</text>	
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+		    <color>000000</color>
+			<pos>0.269 0.145</pos>
+                        <zIndex>-30</zIndex>
+		</text>
+		
+		<datetime name="md_lastplayed">
+		    <color>000000</color>
+			<pos>0.390 0.138</pos>
+                        <zIndex>-30</zIndex>
+		</datetime>	
 
 		<text name="md_lbl_playcount">
 		    <color>000000</color>
@@ -223,7 +235,7 @@ author:		 Will Allen (aka) WAWEEDMAN
 			<pos>0.850 0.930</pos>
 		        <fontSize>0.03</fontSize>
                 </text>
-		<text name="md_genre, md_playcount, md_releasedate, md_developer, md_players">
+		<text name="md_genre, md_playcount, md_releasedate, md_developer, md_lastplayed, md_players">
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
 			<fontSize>0.03</fontSize>
