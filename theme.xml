@@ -207,13 +207,13 @@ author:		 Will Allen (aka) WAWEEDMAN
 		
 		<text name="md_lbl_lastplayed">
 		    <color>000000</color>
-			<pos>0.269 0.145</pos>
+			<pos>1 1</pos>
                         <zIndex>-30</zIndex>
 		</text>
 		
 		<datetime name="md_lastplayed">
 		    <color>000000</color>
-			<pos>0.390 0.138</pos>
+			<pos>1 1</pos>
                         <zIndex>-30</zIndex>
 		</datetime>	
 
